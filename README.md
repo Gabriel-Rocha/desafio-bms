@@ -74,6 +74,17 @@ VALUES
 
 # 6 - Start o server
 #### Em outro terminou rode o comando:
+
+Criar o package.json
+```
+   npm init -y
+```
+
+Instalar as Dependências
+```
+    npm install express mysql2 sequelize jsonwebtoken bcryptjs dotenv cors express-validator
+```
+
 ```
     node src/app.js
 ```
