@@ -85,6 +85,7 @@ Instalar as Dependências
     npm install express mysql2 sequelize jsonwebtoken bcryptjs dotenv cors express-validator
 ```
 
+Inicie o servidor
 ```
     node src/app.js
 ```
