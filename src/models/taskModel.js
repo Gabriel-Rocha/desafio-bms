@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const db = require('../config/db');
 const User = require('./userModel'); 
 
-// Define o modelo Task
+// Task
 const Task = db.define('Task', {
     id: {
         type: DataTypes.INTEGER,
@@ -34,6 +34,8 @@ const Task = db.define('Task', {
             key: 'id',
         },
     },
+},{
+    tableName: 'tasks',
 });
 
 User.hasMany(Task, { foreignKey: 'user_id' });
