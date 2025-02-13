@@ -73,7 +73,7 @@ VALUES
     ('98765432109', 'outraSenha456');**
 
 # 6 - Start o server
-
+#### Em outro terminou rode o comando:
 ```
     node src/app.js
 ```
