@@ -29,7 +29,7 @@
 
 ** coloque a senha definida no passo anterior **
 
-# 4 - Conecte - se no banco de dados usando e veja a estrutura
+# 4 - Conecte - se no banco de dados, veja a estrutura
 
 ```
     SHOW DATABASES;
