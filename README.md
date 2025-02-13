@@ -13,11 +13,14 @@
   -e MYSQL_PASSWORD=admin123 `  -p 5432:3306`
   mysql
 ```
-
-#### Confira se o mysql foi iniciado
+#### Inicie o MySql no docker
 
 ```
     docker start mysql-todo
+```
+#### Confira se o MySql foi iniciado
+
+```
     docker ps
 ```
 
